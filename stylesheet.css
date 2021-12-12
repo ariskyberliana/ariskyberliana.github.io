@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-color: #79B4B7;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 6px;
+}
+
+.top-wrapper p {
+  font-size: 20px;
+  margin-bottom: 3px;
+  letter-spacing: 6px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.instagram {
+  background-color: #4d2a0e;
+  margin-right: 10px;
+}
+
+.maps {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #FEFBF3;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 14%;
+  
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #79B4B7;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(49, 154, 160, 0.8);
+  color:#F8F0DF
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon{
+  color:white;
+  float:right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #F8F0DF;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading1 {
+  padding-top: 80px;
+  padding-bottom: 0px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #5f5d60;
+  font-weight: normal;
+  letter-spacing: 6px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: #9D9D9D;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #5f5d60;
+}
+
+.clear{
+  padding-top: 35px;
+  border-bottom: 1px solid #5f5d60;
+}
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  background-color: #F8F0DF;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #79B4B7;
+  cursor: pointer;
+  box-shadow: 0 7px #265153;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  padding-top: 15px;
+  width: 200px;
+}
+
+
+footer {
+  background-color: #FEFBF3;
+  padding: 20px;
+}
+
+.footer-right {
+  float: right;
+  margin-right: -25px;
+}
+
+
+.about-wrapper img{
+  display: block;
+  width: 100%;
+  
+}
+
+.about-container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.heading-srv {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading-srv h2 {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #5f5d60;
+  font-weight: normal;
+  letter-spacing: 6px;
+  margin-top: 0px;
+}
+
+.top-wrapper-srv {
+  padding: 100px 0 40px 0;
+  background-color: #F8F0DF;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper-c {
+  padding: 118px 0 123px 0;
+  background-color: #79B4B7;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
